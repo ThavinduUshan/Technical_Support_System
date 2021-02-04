@@ -1,0 +1,306 @@
+body {
+  margin:0;
+  padding:0;
+  background-attachment: fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color:#ededed;
+  font-family: Helvetica, sans-serif;
+}
+
+p{
+  padding-top: 20px;
+  color:red;
+  text-align:center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 30px;
+  overflow: hidden;
+  background-color:#000084;
+}
+
+nav li {
+  float: right;
+}
+
+#logo {
+  float:left;
+  padding-left:30px;
+  padding-top:10px;
+}
+
+nav li a {
+  font-size:18px;
+  min-width:80px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.ai{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 50px;
+  margin-bottom:50px;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  background:white;
+  border-radius: 30px;
+  box-shadow: 0px 0px 11px 7px rgba(0,0,0,0.07);
+}
+
+.ai button{
+  margin-top: 30px;
+  width:80%;
+  border:none;
+  outline:none;
+  height:48px;
+  background: #000084;
+  color:#fff;
+  font-size: 18px;
+  border-radius:20px;
+}
+
+.ai button a{
+  color:white;
+  text-decoration:none;
+}
+.ai button:hover{
+  background: #ff8000;
+}
+
+#users {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width:100%;
+}
+
+#users td, #users th {
+  border: 3px solid black;
+  padding: 8px;
+  min-width: 100px;
+
+}
+
+#users tr{background-color: #ededed;}
+
+#users tr:hover {background-color:white;}
+
+#users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+#users td{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+#users button{
+  padding:10px;
+  border:none;
+  outline:none;
+  width:80%;
+  height:40px;
+  background: #000084;
+  color:#fff;
+  font-size: 18px;
+  border-radius:20px;
+}
+
+#users button a{
+  text-decoration:none;
+  color:white;
+}
+
+.update-user{
+  width:400px;
+  height:550px;
+  padding:30px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 50px;
+  margin-bottom:50px;
+  background:white;
+  color:black;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: 0px 0px 11px 7px rgba(0,0,0,0.07);
+  
+}
+
+
+.update-user label{
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  font-size:16px;
+
+}
+
+.update-user input[type="text"],input[type="password"],input[type="email"],input[type="tel"] {
+  border:none;
+  width:100%;
+  margin-bottom:20px;
+  border-bottom:1px solid black;
+  background:transparent;
+  outline:none;
+  height:35px;
+  color:black;
+  font-size:16px;
+}
+
+.update-user button{
+  width:100%;
+  margin-top:30px;
+  border:none;
+  outline:none;
+  height:48px;
+  background: #000084;
+  color:#fff;
+  font-size: 18px;
+  border-radius:20px;
+
+}
+
+
+.update-user button:hover{
+  cursor:pointer;
+  background:#FF8C00;
+  color:white;
+}
+
+.adduseradmin{
+  width:450px;
+  height:750px;
+  padding:30px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 50px;
+  margin-bottom:50px;
+  background:white;
+  color:black;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: 0px 0px 11px 7px rgba(0,0,0,0.07);
+  
+}
+
+
+.adduseradmin label{
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  font-size:16px;
+
+}
+
+.adduseradmin input[type="text"],input[type="password"],input[type="email"],input[type="tel"] {
+  border:none;
+  width:100%;
+  margin-bottom:20px;
+  border-bottom:1px solid black;
+  background:transparent;
+  outline:none;
+  height:35px;
+  color:black;
+  font-size:16px;
+}
+
+.adduseradmin button{
+  width:100%;
+  margin-top:30px;
+  border:none;
+  outline:none;
+  height:48px;
+  background: #000084;
+  color:#fff;
+  font-size: 18px;
+  border-radius:20px;
+
+}
+
+.adduseradmin button:hover{
+  cursor:pointer;
+  background:#FF8C00;
+  color:white;
+}
+
+.update-issue{
+  width:500px;
+  height:800px;
+  padding:30px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  background:white;
+  color:black;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: 0px 0px 11px 7px rgba(0,0,0,0.07);
+  
+}
+
+.update-issue label{
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  font-size:16px;
+  color:#000084;
+}
+
+
+.update-issue input[type="text"] {
+  display:none;
+}
+
+
+#status{
+  margin:0;
+  width:300px;
+  font-size:16px;
+  background:#ededed;
+  height:35px;
+  padding:5px;
+  border-radius: 5px;
+}
+
+.update-issue textarea{
+  width:100%;
+}
+
+.update-issue h1{
+  text-align:center;
+  color:#000084;
+}
+
+.update-issue button{
+  width:100%;
+  margin-top:30px;
+  border:none;
+  outline:none;
+  height:48px;
+  background: #000084;
+  color:#fff;
+  font-size: 18px;
+  border-radius:20px;
+
+}
+
+.update-issue button:hover{
+  cursor:pointer;
+  background:#FF8C00;
+  color:white;
+}
+

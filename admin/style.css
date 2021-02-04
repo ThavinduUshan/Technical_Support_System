@@ -1,0 +1,120 @@
+body {
+  margin:0;
+  padding:0;
+  background: url("background.jpg");
+  background-attachment: fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color: #ededed;
+  font-family: Helvetica, sans-serif;
+}
+
+h1{
+  margin:0;
+  padding: 30px 0 10px;
+  text-align:center;
+  font-size:30px; 
+  font-weight:bold;
+ }
+ 
+h2 {
+   margin:0;
+   padding: 0 0 50px;
+   text-align:center;
+   font-size:18px; 
+   font-weight:100;
+ }
+
+p {
+  padding-top:10px;
+  color:red;
+  text-align:center;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 30px;
+  overflow: hidden;
+  background-color:#000084;
+}
+
+nav li {
+  float: right;
+}
+
+#logo {
+  float:left;
+  padding-left:30px;
+  padding-top:10px;
+}
+
+nav li a {
+  font-size:18px;
+  min-width:80px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+
+nav li a:hover {
+  background-color: #ff8000;
+}
+.admin{
+  width:400px;
+  height:600px;
+  padding:30px;
+  background:white;
+  color:black;
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  box-sizing: border-box;
+  border-radius: 25px;
+  box-shadow: 0px 0px 11px 7px rgba(0,0,0,0.07);
+  
+}
+
+.admin label{
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  font-size:16px;
+
+}
+
+.admin input[type="text"],input[type="password"],input[type="email"],input[type="tel"] {
+  border:none;
+  width:100%;
+  margin-bottom:20px;
+  border-bottom:1px solid black;
+  background:transparent;
+  outline:none;
+  height:35px;
+  color:black;
+  font-size:16px;
+}
+
+.admin button{
+  width:100%;
+  margin-top:30px;
+  border:none;
+  outline:none;
+  height:48px;
+  background: #000084;
+  color:#fff;
+  font-size: 18px;
+  border-radius:20px;
+
+}
+
+.admin button:hover{
+  cursor:pointer;
+  background:#FF8C00;
+  color:white;
+}
+

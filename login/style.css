@@ -1,0 +1,114 @@
+body {
+  margin:0;
+  padding:0;
+  background: url("background.jpg");
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:center;
+  background-color: #ededed;
+  font-family: Helvetica, sans-serif;
+}
+
+h1{
+ margin:0;
+ padding: 30px 0 10px;
+ text-align:center;
+ font-size:30px; 
+ font-weight:bold;
+}
+
+h2 {
+  margin:0;
+  padding: 0 0 50px;
+  text-align:center;
+  font-size:18px; 
+  font-weight:100;
+}
+
+p{
+  padding-top:20px;
+  color:red;
+  text-align:center;
+}
+
+.logo{
+  padding:30px;
+}
+
+.login{
+  width:400px;
+  height:560px;
+  padding:30px;
+  background:white;
+  color:black;
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  box-sizing: border-box;
+  border-radius: 25px;
+  box-shadow: 0px 0px 11px 7px rgba(0,0,0,0.07);
+  
+}
+
+
+.login label{
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  font-size:16px;
+
+}
+
+.login input[type="text"],input[type="password"],input[type="email"],input[type="tel"] {
+  border:none;
+  width:100%;
+  margin-bottom:20px;
+  border-bottom:1px solid black;
+  background:transparent;
+  outline:none;
+  height:35px;
+  color:black;
+  font-size:16px;
+}
+
+.login button{
+  width:100%;
+  margin-top:30px;
+  border:none;
+  outline:none;
+  height:48px;
+  background: #000084;
+  color:#fff;
+  font-size: 18px;
+  border-radius:20px;
+
+}
+
+.login button:hover{
+  cursor:pointer;
+  background:#FF8C00;
+  color:white;
+}
+
+h3 {
+  margin:0;
+  padding-top:30px;
+  text-align:center;
+  font-size:16px; 
+  font-weight:100;
+}
+
+h3 a{
+  padding-left:3px;
+  color:#000084;
+  text-decoration: none;
+}
+
+h3 a:hover{
+  color:#FF8C00;
+}
+
+.home h2{
+  padding-top:20px;
+}

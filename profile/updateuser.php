@@ -55,7 +55,7 @@
   </form>
 </div>
 <div class="del">
-<button><a href="deleteuser.php?usersId=<?php echo $row['usersId'];?>">Delete the Account</a></button>
+<button onclick=delete_account()><a href="deleteuser.php?usersId=<?php echo $row['usersId'];?>">Delete the Account</a></button>
 </div>
 </body>
 </html>
